@@ -1,0 +1,17 @@
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\bin\Debug\net6.0-windows\WinToolbox.exe
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\bin\Debug\net6.0-windows\WinToolbox.deps.json
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\bin\Debug\net6.0-windows\WinToolbox.runtimeconfig.json
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\bin\Debug\net6.0-windows\WinToolbox.dll
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\bin\Debug\net6.0-windows\WinToolbox.pdb
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.csproj.AssemblyReference.cache
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.Form1.resources
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.csproj.GenerateResource.cache
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.AssemblyInfoInputs.cache
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.AssemblyInfo.cs
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.csproj.CoreCompileInputs.cache
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.dll
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\refint\WinToolbox.dll
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.pdb
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\WinToolbox.genruntimeconfig.cache
+C:\Users\Tech-Strock\source\repos\WinToolbox\WinToolbox\obj\Debug\net6.0-windows\ref\WinToolbox.dll
