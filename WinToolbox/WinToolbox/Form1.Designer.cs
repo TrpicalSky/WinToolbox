@@ -40,7 +40,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(636, 169);
+            this.textBox1.Location = new System.Drawing.Point(655, 376);
             this.textBox1.Name = "textBox1";
             this.textBox1.PlaceholderText = "Enter IP:";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
@@ -49,7 +49,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(648, 213);
+            this.button1.Location = new System.Drawing.Point(668, 405);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -67,7 +67,7 @@
             "CloudFlare",
             "OpenDNS",
             "None"});
-            this.comboBox1.Location = new System.Drawing.Point(627, 73);
+            this.comboBox1.Location = new System.Drawing.Point(646, 328);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 23);
             this.comboBox1.TabIndex = 2;
@@ -76,34 +76,40 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(632, 44);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(637, 296);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 15);
+            this.label1.Size = new System.Drawing.Size(146, 19);
             this.label1.TabIndex = 3;
             this.label1.Text = "Select DNS from list";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(675, 127);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(692, 354);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(23, 15);
+            this.label2.Size = new System.Drawing.Size(33, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "OR";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 44);
+            this.label3.BackColor = System.Drawing.Color.IndianRed;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 15);
+            this.label3.Size = new System.Drawing.Size(233, 24);
             this.label3.TabIndex = 5;
             this.label3.Text = "Current Computer Name";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(104, 152);
+            this.button2.Location = new System.Drawing.Point(48, 415);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
@@ -113,11 +119,12 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(68, 105);
+            this.textBox2.Location = new System.Drawing.Point(14, 376);
             this.textBox2.Name = "textBox2";
             this.textBox2.PlaceholderText = "New Computer Name:";
             this.textBox2.Size = new System.Drawing.Size(155, 23);
             this.textBox2.TabIndex = 7;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Form1
             // 
@@ -134,6 +141,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
