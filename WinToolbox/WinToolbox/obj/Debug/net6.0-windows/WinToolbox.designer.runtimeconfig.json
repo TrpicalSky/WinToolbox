@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Tech-Strock\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Tech-Strock\\.nuget\\packages",
+      "C:\\Users\\Sky\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Sky\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

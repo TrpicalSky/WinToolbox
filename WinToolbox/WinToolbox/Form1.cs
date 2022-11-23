@@ -123,5 +123,37 @@ namespace WinToolbox
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            
+            string strExeFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
+            string strWorkPath = System.IO.Path.GetDirectoryName(strExeFilePath);
+            string filePath = strWorkPath + "\\niniteInstall.exe";
+
+            if (!File.Exists(filePath))
+            {
+                return;
+            } else
+            {
+                System.Diagnostics.Process.Start(filePath);
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string strExeFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
+            string strWorkPath = System.IO.Path.GetDirectoryName(strExeFilePath);
+            string filePath = strWorkPath + "\\test.bat";
+
+            if (!File.Exists(filePath))
+            {
+                return;
+            } else
+            {
+                System.Diagnostics.Process.Start(filePath);
+            }
+        }
     }
 }
